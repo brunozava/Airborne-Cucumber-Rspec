@@ -1,0 +1,7 @@
+---
+default: -p html_report -p progress
+ci: -p json_report -p progress
+html_report: --format html --out=logs/features.html
+json_report: --format json --out=logs/features.json
+pretty: --format pretty
+progress: --format progress
